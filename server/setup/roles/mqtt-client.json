@@ -1,0 +1,9 @@
+{
+  "cluster": ["manage_index_templates", "manage_ilm", "manage"],
+  "indices": [
+    {
+      "names": ["*"],
+      "privileges": ["create_index", "write", "create"]
+    }
+  ]
+}
